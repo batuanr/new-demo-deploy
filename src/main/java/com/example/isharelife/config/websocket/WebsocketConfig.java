@@ -11,7 +11,7 @@ public class WebsocketConfig implements WebSocketMessageBrokerConfigurer {
     @Override
     public void registerStompEndpoints(StompEndpointRegistry registry) {
         registry.addEndpoint("/ws") // đăng kí endpoint là tiền tố mapping của websocket của mình
-                .setAllowedOrigins("https://kasawoa0.herokuapp.com").withSockJS(); //khai báo các đường dẫn của front-end có thể gọi được socket của mình
+                .setAllowedOrigins("https://kasawoauuuu.herokuapp.com/").withSockJS(); //khai báo các đường dẫn của front-end có thể gọi được socket của mình
     }
 
     @Override
